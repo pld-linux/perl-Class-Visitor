@@ -3,7 +3,7 @@ Summary:	Class::Visitor perl module
 Summary(pl):	Modu³ perla Class::Visitor
 Name:		perl-Class-Visitor
 Version:	0.02
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -18,6 +18,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Class::Visitor extends the Class::Template Perl module with
 implementations of the Visitor and Iterator design patterns for
 multi-level container hierarchies.
+
+%description -l pl
+Class::Visitor rozszerza modu³ Class::Template o implementacje wzorców
+Visitor i Iterator do wielopoziomowych hierarchii kontenerów.
 
 %prep
 %setup -q -n Class-Visitor-%{version}
