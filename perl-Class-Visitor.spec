@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Class
-%define	pnam	Visitor
+%define		pdir	Class
+%define		pnam	Visitor
 Summary:	Class::Visitor - Visitor and Iterator extensions to Class::Template
 Summary(pl):	Class::Visitor - rozszerzenia Class::Template: Visitor i Iterator
 Name:		perl-Class-Visitor
