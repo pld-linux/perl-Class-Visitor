@@ -5,11 +5,11 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Class
 %define	pnam	Visitor
-Summary:	Class::Visitor perl module
-Summary(pl):	Modu³ perla Class::Visitor
+Summary:	Class::Visitor - Visitor and Iterator extensions to Class::Template
+Summary(pl):	Class::Visitor - rozszerzenia Class::Template: Visitor i Iterator
 Name:		perl-Class-Visitor
 Version:	0.02
-Release:	7
+Release:	8
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -17,6 +17,10 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	b4ae495cdfac41c85351017631b37f5b
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6
+%if %{with tests}
+BuildRequires:	perl-Class-Eroot
+%endif
+Requires:	perl-Class-Eroot
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
