@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Class
 %define	pnam	Visitor
-%include	/usr/lib/rpm/macros.perl
 Summary:	Class::Visitor perl module
 Summary(pl):	Modu³ perla Class::Visitor
 Name:		perl-Class-Visitor
 Version:	0.02
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -25,7 +24,7 @@ Class::Visitor rozszerza modu³ Class::Template o implementacje wzorców
 Visitor i Iterator do wielopoziomowych hierarchii kontenerów.
 
 %prep
-%setup -q -n Class-Visitor-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
