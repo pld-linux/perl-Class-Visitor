@@ -27,7 +27,7 @@ Visitor i Iterator do wielopoziomowych hierarchii kontenerów.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
