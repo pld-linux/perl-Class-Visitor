@@ -29,7 +29,7 @@ Visitor i Iterator do wielopoziomowych hierarchii kontenerów.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
