@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	Visitor
 Summary:	Class::Visitor - Visitor and Iterator extensions to Class::Template
-Summary(pl):	Class::Visitor - rozszerzenia Class::Template: Visitor i Iterator
+Summary(pl.UTF-8):   Class::Visitor - rozszerzenia Class::Template: Visitor i Iterator
 Name:		perl-Class-Visitor
 Version:	0.02
 Release:	9
@@ -29,9 +29,9 @@ Class::Visitor extends the Class::Template Perl module with
 implementations of the Visitor and Iterator design patterns for
 multi-level container hierarchies.
 
-%description -l pl
-Class::Visitor rozszerza modu≥ Class::Template o implementacje wzorcÛw
-Visitor i Iterator do wielopoziomowych hierarchii kontenerÛw.
+%description -l pl.UTF-8
+Class::Visitor rozszerza modu≈Ç Class::Template o implementacje wzorc√≥w
+Visitor i Iterator do wielopoziomowych hierarchii kontener√≥w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
