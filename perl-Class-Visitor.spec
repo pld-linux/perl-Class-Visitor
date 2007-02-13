@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	Visitor
 Summary:	Class::Visitor - Visitor and Iterator extensions to Class::Template
-Summary(pl.UTF-8):   Class::Visitor - rozszerzenia Class::Template: Visitor i Iterator
+Summary(pl.UTF-8):	Class::Visitor - rozszerzenia Class::Template: Visitor i Iterator
 Name:		perl-Class-Visitor
 Version:	0.02
 Release:	9
