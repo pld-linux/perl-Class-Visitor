@@ -9,7 +9,7 @@ Summary:	Class::Visitor - Visitor and Iterator extensions to Class::Template
 Summary(pl.UTF-8):	Class::Visitor - rozszerzenia Class::Template: Visitor i Iterator
 Name:		perl-Class-Visitor
 Version:	0.02
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
