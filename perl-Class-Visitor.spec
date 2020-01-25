@@ -4,7 +4,6 @@
 
 %define		pdir	Class
 %define		pnam	Visitor
-%include	/usr/lib/rpm/macros.perl
 Summary:	Class::Visitor - Visitor and Iterator extensions to Class::Template
 Summary(pl.UTF-8):	Class::Visitor - rozszerzenia Class::Template: Visitor i Iterator
 Name:		perl-Class-Visitor
